@@ -32,5 +32,5 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: 'site'
-          destination: 'stb118-assignment-5'
+          destination: 'cs1660-assig5'
           parent: false
