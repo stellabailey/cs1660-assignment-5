@@ -25,8 +25,8 @@ jobs:
         name: 'Authenticate to Google Cloud'
         uses: 'google-github-actions/auth@v1'
         with:
-          workload_identity_provider: 'projects/566531503133/locations/global/workloadIdentityPools/github/providers/my-repo'
-          service_account: 'gha-service-account@cs1660-assignment-5.iam.gserviceaccount.com'
+          workload_identity_provider: 'projects/427967451642/locations/global/workloadIdentityPools/github/providers/my-repo'
+          service_account: 'gha-service-account@cs1660-assig5.iam.gserviceaccount.com'
 
       - id: 'upload-static-files'
         uses: 'google-github-actions/upload-cloud-storage@v1'
